@@ -7,11 +7,17 @@
       li a {
         color: purple;
       }
+      #test-ref a {
+        color: orange;
+      }
       li {
         border: 2px solid grey;
       }
       #exec-bio {
         background-color: gold;
+      }
+      .test2 {
+        background-color: azure;
       }
       .bio-box {
         border: 1px solid black;
@@ -27,7 +33,7 @@
       <li>
         <a href="http://example.com/">Link</a>
       </li>
-      <li>
+      <li id="test-ref">
         <a href="http://example.com/">Link</a>
       </li>
       <li>
@@ -35,16 +41,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div id="exec-bio" class="bio-box">
+    <div id="exec-bio" class="bio-box test2">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box test2">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box test2">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box test2">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
