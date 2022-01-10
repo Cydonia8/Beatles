@@ -3,10 +3,7 @@ body{
     font-family: 'Alice', serif;
     color: black;
 }
-@font-face {
-    font-family: 'Beatle' ;
-    src: url('../fonts/BOOTLE__.TTF');
-}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -29,7 +26,6 @@ nav{
     color: black;
     padding-right: 4rem;
     font-size: 1.3rem;
-    font-family: 'Beatle';
     word-spacing: 0.5rem;
 
 }
@@ -38,7 +34,6 @@ button{
     display: inline-block;
 }
 #formulario{
-    font-family: 'Beatle';
 }
 .inputs{
     display: flex;
