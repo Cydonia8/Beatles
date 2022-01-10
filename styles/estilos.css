@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Alice', serif;
+    color: black;
 }
 @font-face {
     font-family: 'Beatle' ;
@@ -17,6 +18,7 @@ nav{
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 1;
 }
 #logo img{
     width: 10rem;
@@ -45,4 +47,30 @@ button{
 }
 #formulario label{
     padding-right: 0.5rem;
+}
+h2{
+    margin-top: 10rem;
+    text-align: center;
+}
+#fotos img{
+    width: 22rem;
+    min-height: 370px;
+    
+}
+#fotos{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#fotos div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;  
+    
+}
+h3{
+    background-color: black;
+    color: white;
+    margin: 0px;
 }
