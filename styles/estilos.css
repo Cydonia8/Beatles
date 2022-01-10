@@ -32,8 +32,11 @@ nav{
 button{
     width: 100%;
     display: inline-block;
-    margin-top: 0.5rem;
 }
 #formulario{
     font-family: 'Beatle';
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
 }
