@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    font-family: 'Alice', serif;
+}
+@font-face {
+    font-family: 'Beatle' ;
+    src: url('../fonts/BOOTLE__.TTF');
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-bottom: 4px solid black;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+#logo img{
+    width: 10rem;
+    padding-top: 0.5rem;
+}
+#enlaces a{
+    text-decoration: none;
+    color: black;
+    padding-right: 4rem;
+    font-size: 1.3rem;
+    font-family: 'Beatle';
+
+}
+button{
+    width: 100%;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+#formulario{
+    font-family: 'Beatle';
+}
