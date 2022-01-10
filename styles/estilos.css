@@ -16,6 +16,7 @@ nav{
     position: fixed;
     width: 100%;
     align-items: center;
+    flex-wrap: wrap;
 }
 #logo img{
     width: 10rem;
@@ -27,6 +28,7 @@ nav{
     padding-right: 4rem;
     font-size: 1.3rem;
     font-family: 'Beatle';
+    word-spacing: 0.5rem;
 
 }
 button{
@@ -39,4 +41,8 @@ button{
 .inputs{
     display: flex;
     justify-content: space-between;
+    margin-top: 0.2em;
+}
+#formulario label{
+    padding-right: 0.5rem;
 }
