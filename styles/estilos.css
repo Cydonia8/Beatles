@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Alice', serif;
+    font-family: 'M PLUS 1 Code', sans-serif;
     color: black;
 }
 
@@ -38,6 +38,7 @@ button{
     display: flex;
     justify-content: space-between;
     margin-top: 0.2em;
+    margin-bottom: 0.2rem;
 }
 #formulario label{
     padding-right: 0.5rem;
@@ -67,6 +68,7 @@ h3{
     background-color: black;
     color: white;
     margin: 0px;
+    padding: 0.2em;
 }
 table{
     border-collapse: collapse;
