@@ -87,6 +87,7 @@ table{
 }
 table img{
     width: 14rem;
+    min-width: 270px;
 }
 th{
     padding: 1rem;
