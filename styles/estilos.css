@@ -1,7 +1,9 @@
 body{
     margin: 0px;
-    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Antic Slab', serif;
     color: black;
+    background-image: url('../img/background.jpeg');
+    background-size: 20%;
 }
 
 nav{
@@ -16,6 +18,7 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     z-index: 1;
+    font-family: 'Cinzel', serif;
 }
 #logo img{
     width: 10rem;
@@ -25,7 +28,7 @@ nav{
     text-decoration: none;
     color: black;
     padding-right: 4rem;
-    font-size: 1.3rem;
+    font-size: 1.1em;
 
 }
 button{
@@ -43,9 +46,14 @@ button{
 #formulario label{
     padding-right: 0.5rem;
 }
-h2{
+#hs{
     margin-top: 10rem;
-    text-align: center;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border-radius: 70%;
 }
 #fotos img{
     width: 22rem;
@@ -88,12 +96,17 @@ th, td{
     width: 30%;
 }
 thead{
-    background-color: black;
     color: whitesmoke;
     
 }
 tr:nth-child(even){
     background-color: rgb(228, 226, 226);
+}
+tr:nth-child(odd){
+    background-color: rgb(207, 86, 86);
+}
+thead>tr{
+    background-color: black !important;
 }
 th{
     border: 2px solid whitesmoke;
