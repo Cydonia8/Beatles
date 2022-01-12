@@ -11,6 +11,8 @@ nav{
     justify-content: space-around;
     background-color: whitesmoke;
     border-bottom: 4px solid black;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
     left: 0px;
     top: 0px;
     position: fixed;
