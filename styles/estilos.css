@@ -23,8 +23,8 @@ nav{
     font-family: 'Cinzel', serif;
 }
 @font-face {
-    font-family: 'Beatles';
-    src: url(../fonts/BOOTLE.TTF);
+    font-family: '';
+    src: url();
 }
 #logo img{
     width: 10rem;
@@ -61,7 +61,6 @@ button{
 h1{
     text-align: center;
     padding-top: 4rem;
-    font-family: 'Beatles'; 
 }
 .parrafos{
     margin: 0rem 2rem;
