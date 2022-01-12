@@ -22,6 +22,10 @@ nav{
     z-index: 1;
     font-family: 'Cinzel', serif;
 }
+@font-face {
+    font-family: 'Beatles';
+    src: url(../fonts/BOOTLE.TTF);
+}
 #logo img{
     width: 10rem;
     padding-top: 0.5rem;
@@ -47,6 +51,21 @@ button{
 }
 #formulario label{
     padding-right: 0.5rem;
+}
+#titulo{
+    border-radius: 100%;
+    border: 5px solid black;
+    background-image: url(../img/pattern.jpg);
+    background-size: 30%;
+}
+h1{
+    text-align: center;
+    padding-top: 4rem;
+    font-family: 'Beatles'; 
+}
+.parrafos{
+    margin: 0rem 2rem;
+    background-color: #D7D0CEBB;    
 }
 #hs{
     margin-top: 10rem;
