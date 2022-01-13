@@ -52,7 +52,6 @@ button{
 #formulario label{
     padding-right: 0.5rem;
 }
-
 h1{
     text-align: center;
     padding-top: 4rem;
@@ -61,7 +60,7 @@ h1{
     margin: 0rem 2rem;
     background-color: #D7D0CEBB;    
 }
-#hs{
+#discos{
     margin-top: 10rem;
     background-color: rgb(7, 7, 7);
     color: white;
@@ -93,11 +92,21 @@ h3{
     margin: 0px;
     padding: 0.2em;
 }
+#tabla{
+    margin-top: 10rem;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border-radius: 70%;
+}
 table{
     border-collapse: collapse;
     text-align: center;
     border: 2px solid black;
     margin: 3rem;
+    font-weight: bolder;
 
 }
 table img{
@@ -119,7 +128,7 @@ tr:nth-child(even){
     background-color: rgb(228, 226, 226);
 }
 tr:nth-child(odd){
-    background-color: rgb(207, 86, 86);
+    background-color: rgb(110, 180, 185);
 }
 thead>tr{
     background-color: black !important;
