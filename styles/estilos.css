@@ -3,7 +3,7 @@ body{
     font-family: 'Antic Slab', serif;
     color: black;
     background-image: url('../img/background.jpeg');
-    background-size: 20%;
+    background-size: 15%;
 }
 
 nav{
@@ -58,9 +58,12 @@ h1{
 }
 .parrafos{
     margin: 0rem 2rem;
-    background-color: #D7D0CEBB;    
+    background-color: #0a0a0add;    
 }
-#discos{
+p{
+    color: white;
+}
+h2{
     margin-top: 10rem;
     background-color: rgb(7, 7, 7);
     color: white;
@@ -110,8 +113,9 @@ table{
 
 }
 table img{
-    width: 14rem;
+    width: 100%;
     min-width: 270px;
+    vertical-align: bottom;
 }
 th{
     padding: 1rem;
@@ -119,6 +123,10 @@ th{
 th, td{
     border: 2px solid black;
     width: 30%;
+}
+.fotos-tabla{
+    padding: 0;
+    object-fit: cover;
 }
 thead{
     color: whitesmoke;
