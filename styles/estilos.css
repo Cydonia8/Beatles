@@ -114,8 +114,8 @@ table{
 }
 table img{
     width: 100%;
-    min-width: 270px;
-    vertical-align: bottom;
+    min-width: 250px;
+    vertical-align: middle;
 }
 th{
     padding: 1rem;
