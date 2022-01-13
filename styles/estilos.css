@@ -52,12 +52,7 @@ button{
 #formulario label{
     padding-right: 0.5rem;
 }
-#titulo{
-    border-radius: 100%;
-    border: 5px solid black;
-    background-image: url(../img/pattern.jpg);
-    background-size: 30%;
-}
+
 h1{
     text-align: center;
     padding-top: 4rem;
