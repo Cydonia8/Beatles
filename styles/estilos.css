@@ -106,7 +106,8 @@ h3{
     
 }
 #prueba-tabla{
-    overflow-x: scroll;
+    
+    
 }
 table{
     border-collapse: collapse;
@@ -114,6 +115,9 @@ table{
     border: 2px solid black;
     margin: 3rem;
     font-weight: bolder;
+    display: block;
+    overflow-x: auto;
+    
     
 
 }
