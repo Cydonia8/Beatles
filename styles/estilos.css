@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Antic Slab', serif;
+    font-family: 'Luxurious Roman', cursive;
     color: black;
     background-image: url('../img/background.jpeg');
     background-size: 15%;
@@ -54,7 +54,7 @@ button{
 }
 h1{
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 8rem;
 }
 .parrafos{
     margin: 0rem 2rem;
@@ -103,6 +103,10 @@ h3{
     display: flex;
     justify-content: center;
     border-radius: 70%;
+    
+}
+#prueba-tabla{
+    overflow-x: scroll;
 }
 table{
     border-collapse: collapse;
@@ -110,6 +114,7 @@ table{
     border: 2px solid black;
     margin: 3rem;
     font-weight: bolder;
+    
 
 }
 table img{
