@@ -22,7 +22,7 @@ nav{
     z-index: 1;
     font-family: 'Cinzel', serif;
 }
-nav a:hover{
+#enlaces>a:hover{
     text-decoration: underline;
 }
 #logo img{
