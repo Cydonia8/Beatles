@@ -99,3 +99,18 @@ details{
     padding: 0.5rem;
     margin-top: 2rem;
 }
+
+#figure2{
+    display: flex;
+    flex-flow: column;
+    width: 20rem;
+    float: right;
+    border: 1px solid whitesmoke;
+    padding: 0.5rem;
+    background-color: black;
+    float: right;
+}
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
