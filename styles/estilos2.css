@@ -114,3 +114,17 @@ figcaption{
     text-align: center;
     font-style: italic;
 }
+#figure3{
+    display: flex;
+    flex-flow: column;
+    float: right;
+    width: 15rem;
+    border: 1px solid whitesmoke;
+    padding: 0.5rem;
+    background-color: black;
+    float: right;
+}
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
