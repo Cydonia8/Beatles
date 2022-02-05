@@ -41,8 +41,6 @@ button{
     width: 100%;
     display: inline-block;
 }
-#formulario{
-}
 .inputs{
     display: flex;
     justify-content: space-between;
@@ -54,17 +52,40 @@ button{
 }
 h1{
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border-radius: 70%;
 }
 .parrafos{
     margin: 0rem 2rem;
-    background-color: #0a0a0add;    
+    background-color: #0a0a0abb;
+    width: 60%;
+    margin: auto; 
+    padding: 0.5rem;   
+}
+#beatles{
+    float: right;
+    width: 20rem;
+    padding-left: 0.5rem;
 }
 p{
     color: white;
 }
+q{
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+span{
+    font-style: italic;
+}
 h2{
-    margin-top: 10rem;
+    margin-top: 5rem;
     background-color: rgb(7, 7, 7);
     color: white;
     display: inline-block;
@@ -96,17 +117,13 @@ h3{
     padding: 0.2em;
 }
 #tabla{
-    margin-top: 10rem;
+    margin-top: 3.5em;
     background-color: rgb(7, 7, 7);
     color: white;
     display: inline-block;
     display: flex;
     justify-content: center;
     border-radius: 70%;
-    
-}
-#prueba-tabla{
-    
     
 }
 table{

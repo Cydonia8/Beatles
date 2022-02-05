@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    font-family: 'Luxurious Roman', cursive;
+    color: black;
+    background-image: url('../img/background.jpeg');
+    background-size: 15%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-bottom: 4px solid black;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    font-family: 'Cinzel', serif;
+}
+@font-face {
+    font-family: '';
+    src: url();
+}
+#logo img{
+    width: 10rem;
+    padding-top: 0.5rem;
+}
+#enlaces a{
+    text-decoration: none;
+    color: black;
+    padding-right: 4rem;
+    font-size: 1.1em;
+
+}
+button{
+    width: 100%;
+    display: inline-block;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.2em;
+    margin-bottom: 0.2rem;
+}
+#formulario label{
+    padding-right: 0.5rem;
+}
