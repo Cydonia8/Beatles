@@ -58,4 +58,18 @@ section{
     margin: auto;
     background-color: #0a0a0abb;
     color: white;
+    padding: 0.5rem;
+}
+figure{
+    display: flex;
+    flex-flow: column;
+    width: 17rem;;
+    float: right;
+    border: 1px solid whitesmoke;
+    padding: 0.5rem;
+    background-color: black;
+}
+figcaption{
+    text-align: center;
+    font-style: italic;
 }
