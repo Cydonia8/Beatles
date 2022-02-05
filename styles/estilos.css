@@ -58,14 +58,14 @@ h1{
     display: inline-block;
     display: flex;
     justify-content: center;
-    border-radius: 70%;
 }
 .parrafos{
     margin: 0rem 2rem;
     background-color: #0a0a0abb;
-    width: 60%;
+    width: 75%;
     margin: auto; 
     padding: 0.5rem;   
+    margin-bottom: 5rem;
 }
 #beatles{
     float: right;
@@ -84,15 +84,7 @@ q{
 span{
     font-style: italic;
 }
-h2{
-    margin-top: 5rem;
-    background-color: rgb(7, 7, 7);
-    color: white;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    border-radius: 70%;
-}
+
 #fotos img{
     width: 18rem;
     min-height: 300px;
@@ -102,6 +94,8 @@ h2{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
 }
 #fotos div{
     display: flex;
@@ -116,6 +110,16 @@ h3{
     margin: 0px;
     padding: 0.2em;
 }
+#titulos{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 70%;
+}
+
 #tabla{
     margin-top: 3.5em;
     background-color: rgb(7, 7, 7);
@@ -124,6 +128,7 @@ h3{
     display: flex;
     justify-content: center;
     border-radius: 70%;
+    margin-top: 3rem;
     
 }
 table{
@@ -133,9 +138,7 @@ table{
     margin: 3rem;
     font-weight: bolder;
     display: block;
-    overflow-x: auto;
-    
-
+    overflow-x: auto;    
 }
 table img{
     width: 100%;
