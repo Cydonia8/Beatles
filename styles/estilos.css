@@ -22,11 +22,9 @@ nav{
     z-index: 1;
     font-family: 'Cinzel', serif;
 }
-@font-face {
-    font-family: '';
-    src: url();
+nav a:hover{
+    text-decoration: underline;
 }
-
 #logo img{
     width: 10rem;
     padding-top: 0.5rem;
