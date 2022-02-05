@@ -49,3 +49,13 @@ button{
 #formulario label{
     padding-right: 0.5rem;
 }
+h1{
+    margin-top: 10rem;
+    text-align: center;
+}
+section{
+    width: 80%;
+    margin: auto;
+    background-color: #0a0a0abb;
+    color: white;
+}
