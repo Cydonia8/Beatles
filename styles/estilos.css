@@ -118,13 +118,18 @@ table{
     display: block;
     overflow-x: auto;
     
-    
 
 }
 table img{
     width: 100%;
     min-width: 250px;
     vertical-align: middle;
+}
+thead th{
+    border: none;
+}
+thead th:nth-last-child(n+2){
+    border-right: 1px solid whitesmoke;
 }
 th{
     padding: 1rem;
