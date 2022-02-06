@@ -69,7 +69,7 @@ section{
 figure{
     display: flex;
     flex-flow: column;
-    width: 17rem;;
+    width: 17rem;
     float: right;
     border: 1px solid whitesmoke;
     padding: 0.5rem;
