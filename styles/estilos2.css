@@ -139,12 +139,6 @@ main details:nth-of-type(2){
     background-color: black;
     float: right;
 }
-#pepper{
-    width: 100%;
-    object-fit: cover;
-    vertical-align: middle;
-    margin-top: 2rem;
-}
 #final{
     font-family: 'Cinzel', serif;
     display: flex;
