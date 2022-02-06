@@ -78,6 +78,8 @@ figure{
 figcaption{
     text-align: center;
     font-style: italic;
+    background-color: white;
+    color: black;
 }
 span,q{
     font-style: italic;
