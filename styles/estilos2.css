@@ -158,3 +158,6 @@ main details:nth-of-type(2){
 #final h2{
     margin-bottom: 10rem;
 }
+li{
+    font-weight: bolder;
+}
