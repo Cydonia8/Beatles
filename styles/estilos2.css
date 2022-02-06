@@ -97,6 +97,9 @@ details{
     margin: auto;
     color: white;
     padding: 0.5rem;
+    
+}
+main details:first-of-type{
     margin-top: 2rem;
 }
 
@@ -110,10 +113,6 @@ details{
     background-color: black;
     float: right;
 }
-figcaption{
-    text-align: center;
-    font-style: italic;
-}
 #figure3{
     display: flex;
     flex-flow: column;
@@ -124,7 +123,22 @@ figcaption{
     background-color: black;
     float: right;
 }
-figcaption{
-    text-align: center;
-    font-style: italic;
+main details:nth-of-type(2){
+    margin-bottom: 4rem;
+}
+
+#figure4{
+    display: flex;
+    flex-flow: column;
+    float: right;
+    width: 15rem;
+    border: 1px solid whitesmoke;
+    padding: 0.5rem;
+    background-color: black;
+    float: right;
+}
+#pepper{
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
 }
