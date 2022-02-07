@@ -130,6 +130,9 @@ main details:first-of-type{
 main details:nth-of-type(2){
     margin-bottom: 4rem;
 }
+summary{
+    cursor: pointer;
+}
 
 #figure4{
     display: flex;
